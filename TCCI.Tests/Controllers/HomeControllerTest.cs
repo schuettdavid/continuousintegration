@@ -13,6 +13,7 @@ namespace TCCI.Tests.Controllers
     public class HomeControllerTest
     {
         [TestMethod]
+        [DeploymentItem("TCCI.dll")]
         public void Index()
         {
             // Arrange
